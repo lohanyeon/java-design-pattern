@@ -8,6 +8,7 @@ public class SamBody implements Body  {
 	public void body1() {
 		// TODO Auto-generated method stub
 		System.out.println("body1");
+		System.out.println("==============");
 	}
 
 	@Override
