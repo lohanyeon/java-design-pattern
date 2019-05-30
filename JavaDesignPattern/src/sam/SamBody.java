@@ -9,7 +9,7 @@ public class SamBody implements Body  {
 		// TODO Auto-generated method stub
 		System.out.println("body1");
 		System.out.println("==============");
-		System.out.println("=================");
+		System.out.println("================= ===");
 	}
 
 	@Override
