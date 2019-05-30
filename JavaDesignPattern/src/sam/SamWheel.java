@@ -9,6 +9,7 @@ public class SamWheel implements Wheel {
 		// TODO Auto-generated method stub
 		System.out.println("wheel1");
 		System.out.print("============== ====");
+		System.out.print("asdf");
 	}
 
 	@Override
