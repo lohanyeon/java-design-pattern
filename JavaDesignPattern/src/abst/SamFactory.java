@@ -13,5 +13,5 @@ public class SamFactory implements BikeFactory {
 		// TODO Auto-generated method stub
 		return new SamWheel();
 	}
-
+ 
 }
