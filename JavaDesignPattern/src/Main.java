@@ -1,7 +1,7 @@
 import abst.BikeFactory;
 import abst.Body;
+import abst.SamFactory;
 import abst.Wheel;
-import sam.SamFactory;
 
 public class Main {
 	

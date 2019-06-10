@@ -1,8 +1,4 @@
-package sam;
-
-import abst.BikeFactory;
-import abst.Body;
-import abst.Wheel;
+package abst;
 
 public class SamFactory implements BikeFactory {
 
