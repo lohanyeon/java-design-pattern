@@ -14,6 +14,8 @@ public class Main {
 		
 		body.body1();
 		wheel.wheel1();
+		
+		System.out.println("=======================");
 	}
 
 }
