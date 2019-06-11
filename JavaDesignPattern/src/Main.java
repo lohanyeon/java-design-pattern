@@ -17,6 +17,7 @@ public class Main {
 		
 		System.out.println("\n\n=======================");
 		System.out.println("충돌");
+		System.out.println("1234567890");
 	}
 
 }
