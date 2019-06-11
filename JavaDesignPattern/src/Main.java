@@ -16,6 +16,7 @@ public class Main {
 		wheel.wheel1();
 		
 		System.out.println("\n\n=======================");
+		System.out.println("1234567890");
 	}
 
 }
