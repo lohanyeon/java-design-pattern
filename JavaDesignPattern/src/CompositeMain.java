@@ -21,6 +21,9 @@ public class CompositeMain {
 		music.addComponent(track2);
 		
 		show(root);
+
+
+		System.out.println("hello");
 	}
 	
 	private static void show(Component component) {
