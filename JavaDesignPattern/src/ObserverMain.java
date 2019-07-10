@@ -1,4 +1,6 @@
 import observer.DataSheetView;
+import observer.MinMaxView;
+import observer.Observer;
 import observer.ScoreRecord;
 
 public class ObserverMain {
@@ -7,7 +9,10 @@ public class ObserverMain {
 		ScoreRecord scoreRecord = new ScoreRecord();
 		
 		DataSheetView dataSheetView = new DataSheetView(scoreRecord, 3);
-		scoreRecord.setDataSheetView(dataSheetView);
+		MinMaxView minMaxView = new MinMaxView(scoreRecord);
+
+		scoreRecord.attach(dataSheetView);
+		scoreRecord.attach(minMaxView);
 		
 		for (int index = 1; index <= 5; index ++) {
 			int score = index * 10;
