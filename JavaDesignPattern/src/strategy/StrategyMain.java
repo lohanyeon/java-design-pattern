@@ -1,3 +1,5 @@
+package strategy;
+
 import strategy.*;
 
 public class StrategyMain {
